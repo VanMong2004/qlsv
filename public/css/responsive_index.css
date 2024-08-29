@@ -1,0 +1,41 @@
+/* Mobile */
+@media (max-width: 740px){
+    .heading{
+        font-size: 30px;
+        padding-top: 20px;
+        margin-bottom: 3%;
+    }
+
+    .container-link{    
+        width: 100%;
+       
+    }
+
+    .container-link a{
+        font-size: 16px;
+        
+    }
+
+    table{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .notify{
+    right: 0px;
+    top: 62px;
+    line-height: 12px;
+    font-size: 13px;
+    min-width: 160px;
+    height: 12px;
+    animation: fadeOut 2s ease 1.5s;
+    }
+}
+
+
+
+
+/* Tab */
+@media (min-width: 740px) and (max-width: 1023px){
+    
+}

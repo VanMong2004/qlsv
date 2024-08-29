@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+html{
+    font-family: "Roboto", system-ui;
+}
+
+.main {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #E7ECF0;
+}
+
+.container {
+    min-width: 50%;
+    min-height: 10%;
+    box-shadow: 0 0 2px 3px rgba(51, 107, 153, 0.5);
+    background-color: #fff;
+}
+
+.btn-back {
+    text-decoration: none;
+    color: #384289;
+    font-weight: 600;
+    display: block;
+    float: left;
+    padding: 8px 10px;
+}
+
+
+.btn-back i{
+    font-size: 25px;
+    padding: 2px 4px;
+}
+
+.btn-back:hover {
+    color: #5e6ac1;
+}
+
+.info {
+    padding: 16px;
+}
+
+p{
+    color: #ff0000;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.info__content {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.inf__content-input {
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.info__content-btn {
+    margin-top: 14px;
+    min-width: 130px;
+    float: right;
+    display: block;
+    height: 35px;
+    line-height: 30px;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    color: #fff;
+    background-color: #384289;
+    font-size: 18px;
+}
+
+.info__content-btn i {
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.info__content-btn:hover {
+    color: #384289;
+    background-color: #fff;
+    
+}
+
+.info__view {
+    margin-top: 60px;
+}
+
+.info__content-label,
+.info__view-label {
+    display: block;
+    font-size: 18px;
+    margin: 15px 0;
+    color: #555;
+}
+
+
+.primary {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.mt-auto{
+    margin-right: 25px;
+    text-align: center;
+}
+
+table, tr,th,td{
+    border: 1px solid #0c0a3b;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+tr{
+    height: 30px;
+}
+
+table{
+    min-width: 100%;
+    margin-top: 80px;
+}
+
+h2{
+    font-size: 16px;
+    color: #ff0808;
+    text-align: center;
+    padding-top: 15px;
+}
