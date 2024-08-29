@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-       
+       <p>jjassdqewqeqeqeqeqeqeq</p>
         <h1 class="heading" >Danh Sách Sinh viên</h1>
         @if(session('success'))
             <h2 class="notify">
